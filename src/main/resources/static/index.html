@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=utf-8>
+        <title>Reduced GWT</title>
+        
+        <link rel="stylesheet" href="theme.css">
+
+        <!-- JavaScript side of application and all needed dependecies are loaded as es6 modules. -->
+        <script type="module" src="reduced-gwt.js"></script>
+        
+        <!-- GWT applications are isolated anyway. -->
+        <script src="gwt/reduced/reduced.nocache.js"></script>    
+        
+        <style>
+           body {
+                margin: 0px;
+            }
+            
+            div#content {
+                height: 100vh;
+            }
+            
+            /* NOTE For debugging only!!! */
+            div#content div.container {
+                padding: 5px;
+                margin: 5px;
+                border: solid red 3px;
+            }
+        </style>        
+    </head>
+    <body>
+        <div id="content"></div>
+    </body>
+</html>

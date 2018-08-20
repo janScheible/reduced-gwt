@@ -1,0 +1,31 @@
+body {
+    font-family: Sans-Serif;
+    
+    user-select: none;
+    cursor: default;
+}
+
+td {
+    user-select: auto;
+    cursor: text;
+}
+
+button {
+    background-color: white;
+    border: 0px solid white;
+    padding: 14px;
+    font-weight: bold;
+    color: #1E63B0;
+    outline: none;
+    cursor: pointer;
+    margin: 0px;
+}
+
+button:hover {
+    background-color: #EBEBEB;
+}
+
+button:active {
+    padding: 12px;
+    margin: 2px;
+}

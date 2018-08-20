@@ -1,0 +1,39 @@
+:host {
+    width: 256px;
+    height: 256px;
+    
+    display: inline-flex;
+    
+    box-sizing: border-box;
+  
+    background-color: var(--tile-button-bg-color, darkgray);
+    
+    cursor: pointer;
+}
+
+:host(:hover) {
+    box-shadow: rgba(0, 0, 0, 0.4) 0 10px 20px 0;
+}
+
+a:link {
+    flex: 1;
+    
+    display: inline-flex;
+    
+    text-decoration: none;
+    color: var(--tile-button-font-color, gainsboro);
+    font-size: 36px;
+}
+
+a:visited {
+    color: var(--tile-button-font-color, gainsboro);
+}
+
+a:link span {
+    flex: 1;
+        
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+

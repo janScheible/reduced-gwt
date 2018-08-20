@@ -1,0 +1,42 @@
+:host {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#window {
+    display: flex;
+    flex-direction: column;
+    
+    position: absolute;
+    width: var(--dialog-width);
+    height: var(--dialog-height);
+    
+    left: calc((100vw - var(--dialog-width)) / 2);
+    top: calc((100vh - var(--dialog-height)) / 2);
+    
+    background-color: white;
+    
+    box-shadow: rgba(0, 0, 0, 0.4) 0 10px 20px 0;
+}
+
+#title {
+    background-color: goldenrod;
+    padding: 8px;
+    color: black;
+}
+
+#content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+#button-bar {
+    text-align: right;
+    padding: 20px;
+}

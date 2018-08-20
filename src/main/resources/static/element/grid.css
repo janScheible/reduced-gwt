@@ -1,0 +1,37 @@
+:host {
+    overflow: scroll;
+    transform: translate3d(0, 0, 0);
+    border: 2px solid goldenrod;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    
+    user-select: none;
+    cursor: default;
+    
+    border-spacing: 2px;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+}
+
+th {
+    background-color: gainsboro;
+}
+
+tr:hover {
+    background-color: lightyellow;
+}
+
+td, th {
+    padding: 3px;
+}
+
+td {
+    user-select: auto;
+    cursor: text;
+}
+
