@@ -3,7 +3,7 @@
 The overall GWT idea is great: Have a single big Java code base.
 But things like permutations for different browsers and long compilation cycles (in which the `GWT.create(...)` magic creates up to hundreds of files) make if feel really odd today.
 
-Goal of this project was to throw away as much as possible of that  and use native browser technologies.
+Goal of this project was to throw away as much as possible of that and use native browser technologies.
 For the sample application there isn't even a full `GWT.jar` on the classpath and only a single permutation built.
 Result is a build time of 16 seconds for a simple Spring Boot sample application (for GWT that is really, really fast! ;-).
 

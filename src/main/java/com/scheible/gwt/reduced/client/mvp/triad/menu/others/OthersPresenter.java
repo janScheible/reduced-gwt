@@ -38,6 +38,6 @@ public class OthersPresenter extends ContainerPresenter<View, Void> {
                         .map(columnDefinition -> columnDefinition.title).collect(toList())), gridData.getRows());
             }
         });
-        $(getContainer().get()).append(grid).css("display", "flex");
+        $(getContainer().get()).append(grid).css("display", "flex").css("overflow", "auto");
     }
 }
